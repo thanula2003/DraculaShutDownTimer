@@ -6,7 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>shutdown-timer-bigbat.ico</ApplicationIcon>
+    <AssemblyName>Dracula Shutdown Timer</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="shutdown-timer-bigbat.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
